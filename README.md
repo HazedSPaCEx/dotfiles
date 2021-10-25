@@ -1,5 +1,7 @@
 # My dotfiles
 
+![prompt](https://carbon.pics/Dpz8oIq_0)
+
 ## Credits
 
 * The [polybar scripts repo](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/player-mpris-tail) for the mpris script
