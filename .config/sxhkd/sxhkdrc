@@ -122,7 +122,7 @@ super + {Left,Down,Up,Right}
 
 # screenshot
 @Insert
-	~/.config/screenshot-area.sh
+	~/.config/screenshot-area.sh &
 
 # media keys
 XF86AudioPlay
@@ -142,3 +142,7 @@ XF86AudioRaiseVolume
 
 XF86AudioMute
 	amixer set Master toggle
+
+super + End
+	~/.config/sxhkd/apply-screen-config.sh
+
