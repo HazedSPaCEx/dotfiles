@@ -1,0 +1,1 @@
+echo "scale=0; $(cat /sys/class/hwmon/hwmon2/temp2_input) / 1000" | bc
